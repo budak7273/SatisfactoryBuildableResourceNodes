@@ -4,11 +4,7 @@
 #include "SML/Public/Patching/NativeHookManager.h"
 
 
-DEFINE_LOG_CATEGORY(LogBuildableResourceNodesRedux);
-
-
-
-
+DEFINE_LOG_CATEGORY(LogBuildableResourceNodesReduxCpp);
 
 void FBuildableResourceNodesReduxModule::StartupModule() {
 }

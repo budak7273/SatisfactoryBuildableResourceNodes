@@ -2,7 +2,7 @@
 
 #include "Modules/ModuleManager.h"
 
-DECLARE_LOG_CATEGORY_EXTERN(LogBuildableResourceNodesRedux, Log, Log);
+DECLARE_LOG_CATEGORY_EXTERN(LogBuildableResourceNodesReduxCpp, Log, Log);
 
 class FBuildableResourceNodesReduxModule : public FDefaultGameModuleImpl {
 public:

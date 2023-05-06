@@ -7,7 +7,7 @@
 
 void UBRNRBlueprintLibrary::HandleDelayedSatelliteRegistration(AFGResourceNodeFrackingCore* FrackingCore) {
 	if (!FrackingCore) {
-		UE_LOG(LogBuildableResourceNodesRedux, Warning, TEXT("UBRNBlueprintLibrary: FrackingCore is nullpeter!"));
+		UE_LOG(LogBuildableResourceNodesReduxCpp, Warning, TEXT("UBRNBlueprintLibrary: FrackingCore is nullpeter!"));
 		return;
 	}
 
