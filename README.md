@@ -35,21 +35,21 @@ You can build all the Resource Nodes & Resource Wells you can find in the game o
 
 - Tier 1
   - Basic Buildable Resource Nodes (Limestone, Iron Ore, Copper Ore)
+  - Buildable S.A.M. Resource Nodes
+- Tier 2
+  - Buildable Caterium Resource Nodes
+  - Buildable Raw Quartz Resource Nodes
 - Tier 3
   - Buildable Coal Resource Nodes
+  - Buildable Sulfur Resource Nodes
 - Tier 5
   - Buildable Crude Oil Resource Nodes
-- Tier 6
-  - Buildable Caterium Resource Nodes
   - Buildable Geysers
 - Tier 7
   - Buildable Bauxite Resource Nodes
-  - Buildable Raw Quartz Resource Nodes
-  - Buildable Sulfur Resource Nodes
 - Tier 8
   - Buildable Uranium Resource Nodes
   - Buildable Resource Wells (Water, Crude Oil, Nitrogen)
-  - Buildable S.A.M. Resource Nodes
 
 ## Build & Dismantle Nodes anytime
 
@@ -81,7 +81,7 @@ You can join the modding discord server here: <https://discord.gg/xkVJ73E>
 
 ## Credits
 
-`Robb#6731` has updated the mod for Update 6.
+`Robb#6731` has updated the mod for Update 6/7.
 
 This mod was originally created by `Turtlefight#6892` who published the original source code here:
 <https://github.com/Turtlefight/SatisfactoryBuildableResourceNodes>

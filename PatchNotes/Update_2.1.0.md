@@ -12,7 +12,7 @@ Moved unlocks to tiers that are in-line with when you can first access the resou
 - Moved the "Buildable Caterium Resource Nodes" Milestone to Tier 2
   - Caterium Ore is unlocked for scanning in the hub at T6, but its mam tree can be accessed at any point
 - Moved the "Buildable Raw Quartz Resource Nodes" Milestone to Tier 2
-  - Caterium Ore is unlocked for scanning in the hub at T7, but its mam tree can be accessed at any point
+  - Raw Quartz is unlocked for scanning in the hub at T7, but its mam tree can be accessed at any point
 - Moved the "Buildable Sulfur Resource Nodes" Milestone to Tier 3
   - Sulfur Ore is unlocked for scanning in the hub at T7, but its mam tree can be accessed at any point, but coal (T3) is required to make any appreciable use of it
 - Moved the "Buildable S.A.M. Resource Nodes" Milestone to Tier 1

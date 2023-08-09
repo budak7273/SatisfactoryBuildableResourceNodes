@@ -1,36 +1,27 @@
 using UnrealBuildTool;
 using System.IO;
 using System;
+using System.Runtime.InteropServices;
+using System.Text;
+using EpicGames.Core;
 
 public class BuildableResourceNodesRedux : ModuleRules
 {
     public BuildableResourceNodesRedux(ReadOnlyTargetRules Target) : base(Target)
     {
-        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] {
-            "Core", "CoreUObject",
-            "Engine",
-            "InputCore",
-            "OnlineSubsystem", "OnlineSubsystemUtils", "OnlineSubsystemNULL",
-            "SignificanceManager",
-            "PhysX", "APEX", "PhysXVehicles", "ApexDestruction",
-            "AkAudio",
-            "ReplicationGraph",
-            "UMG",
-            "AIModule",
-            "NavigationSystem",
-            "AssetRegistry",
-            "GameplayTasks",
-            "AnimGraphRuntime",
-            "Slate", "SlateCore",
-            "Json"
-            });
+		var factoryGamePchPath = new DirectoryReference(Path.Combine(Target.ProjectFile.Directory.ToString(), "Source", "FactoryGame", "Public", "FactoryGame.h"));
+		PrivatePCHHeaderFile = factoryGamePchPath.MakeRelativeTo(new DirectoryReference(ModuleDirectory));
 
-
-        if (Target.Type == TargetRules.TargetType.Editor) {
-			PublicDependencyModuleNames.AddRange(new string[] {"OnlineBlueprintSupport", "AnimGraph"});
-		}
-        PublicDependencyModuleNames.AddRange(new string[] {"FactoryGame", "SML"});
+		PrivateDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"Core", "CoreUObject","Engine","InputCore","UMG",
+				"SML",
+				"FactoryGame"
+				// ... add private dependencies that you statically link with here ...	
+			}
+			);
     }
 }
