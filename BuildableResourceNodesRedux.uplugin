@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 2,
-	"VersionName": "2.4.2",
-	"SemVersion": "2.4.2",
+	"VersionName": "2.4.3",
+	"SemVersion": "2.4.3",
 	"FriendlyName": "BuildableResourceNodes Redux",
 	"Description": "Build your own Resource Nodes!",
 	"Category": "Modding",
@@ -25,9 +25,9 @@
 	"Plugins": [
 		{
 			"Name": "SML",
-			"SemVersion": "^3.8.0",
+			"SemVersion": "^3.11.3",
 			"Enabled": true
 		}
 	],
-	"GameVersion": ">=365306"
+	"GameVersion": ">=416835"
 }
